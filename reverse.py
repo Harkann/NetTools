@@ -1,3 +1,8 @@
+"""
+Use reverse DNS to query for the hostname of ALL the ipv4 on the internet.
+(it may take you some time...)
+"""
+
 import socket
 from multiprocessing import Pool, Process, Queue
 from format import Storage, Listener
